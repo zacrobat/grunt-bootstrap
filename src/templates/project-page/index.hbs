@@ -1,0 +1,45 @@
+{{#extend "layout"}}
+  {{#replace "bodyId"}}tabs-page{{/replace}}
+  {{#replace "main"}}
+
+    <section id="title">
+      <div>
+        <h1>Tabs</h1>
+      </div>
+    </section>
+    <section id="tabs">
+      <section id="tab-nav">
+        <div>
+          <ul class="tabs">
+            <li><a for="tabs" class="active-tab" href="#">Tabs</a></li>
+            <li><a for="are" href="#">Are</a></li>
+            <li><a for="awesome" href="#">Awesome</a></li>
+            <li><a for="sauce" href="#">Sauce</a></li>
+          </ul>
+        </div>
+      </section>
+      <section id="tab-section" class="tabcontent">
+        <div name="tabs">
+          <h2>Tabs</h2>
+          <p>Tabs go way back. There was a beverage called Tab that was pretty sweet. You should keep tabs on it. Some cats are tabby, so a tabby cat driving a taxi is a tabby cabbie... no more Tab for this man.</p>
+        </div>
+
+        <div name="are">
+          <h2>Are</h2>
+          <p>Are is the wrong way to spell the letter 'R,' but who are we to judge?'</p>
+        </div>
+
+        <div name="awesome">
+          <h2>Awesome</h2>
+          <p>Awesome is the capital of America.</p>
+        </div>
+
+        <div name="sauce">
+          <h2>Sauce</h2>
+          <p>Sauce... where shall I begin. Overwhelmed.</p>
+        </div>
+      </section>
+    </section>
+
+  {{/replace}}
+{{/extend}}
